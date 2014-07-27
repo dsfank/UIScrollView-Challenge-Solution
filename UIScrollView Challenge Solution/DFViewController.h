@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DFViewController : UIViewController
+@interface DFViewController : UIViewController <UIScrollViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) UIImageView *globalImageView;
 
 @end
